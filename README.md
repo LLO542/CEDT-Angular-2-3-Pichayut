@@ -3,4 +3,4 @@
 Custom Directive
 ![alt text](img\Screenshot 2024-05-16 151104.jpg)
 Service
-![Alt text](image img\Screenshot 2024-05-16 151205.jpg)
+![Alt text](img\Screenshot 2024-05-16 151205.jpg)
