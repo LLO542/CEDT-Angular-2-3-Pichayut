@@ -1,0 +1,12 @@
+<div style="font-size: large;">Press the API</div>
+<input type="text" [(ngModel)]="url">
+<button (click)="sendData()">Call API</button>
+<br>
+<p style="width: 500px;">{{ data | json }}</p>
+<!-- <button (click)="showData()">Show</button> -->
+<!-- <br> -->
+<!-- <p>{{ DATA | json}}</p> -->
+<!-- <h2>{{ url }}</h2> -->
+<hr>
+<div style="font-size: large;">Another Component</div>
+<app-dashboard-show-data [data]="data"></app-dashboard-show-data>

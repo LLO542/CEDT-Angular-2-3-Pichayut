@@ -1,0 +1,13 @@
+<section class="Pipe">
+    <h1 class="Header">Custom Pipe</h1>
+    <h2>FROM</h2>
+    <p>{{ MyObject | json }}</p>
+    <h2>TO</h2>
+    <p>{{ MyObject | customPipe }}</p>
+</section>
+
+<section class="Directive">
+    <h1 class="Header">Custom Directive</h1>
+    <h2 class="H2" appCustomAttributeDirective>Attribute Directive (click me!)</h2>
+    <h2 class="H2" *appCustomStructuralDirective="0">Structural Directive</h2>
+</section>

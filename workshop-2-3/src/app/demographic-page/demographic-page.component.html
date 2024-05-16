@@ -1,0 +1,24 @@
+<form class="Form" [formGroup]="demographicGroup">
+    <h2 class="Header">Demographic</h2>
+    <div class="form">
+        <label for="fname">FirstName : </label>
+        <input type="text" id="fname" formControlName="firstName">
+    </div>
+    <div class="form">
+        <label for="lname">LastName : </label>
+        <input type="text" id="lname" formControlName="lastName">
+    </div>
+    <div class="form">
+        <label for="age">Age : </label>
+        <input type="number" id="age" formControlName="age">
+    </div>
+    <div class="form">
+        <label for="sex">Gender : </label>
+        <select name="gender" id="sex" formControlName="sex">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <button type="submit" [disabled]="!demographicGroup.valid">Submit</button>
+</form>
